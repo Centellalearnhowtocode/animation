@@ -1,0 +1,10 @@
+@keyframes floatUp {
+  0%   { transform: translateY(0) rotate(0deg) scale(1); opacity: 1; }
+  70%  { opacity: 0.8; }
+  100% { transform: translateY(-110vh) rotate(var(--r)) scale(0.4); opacity: 0; }
+}
+
+a {
+  position: relative;
+  z-index: 10;
+}
